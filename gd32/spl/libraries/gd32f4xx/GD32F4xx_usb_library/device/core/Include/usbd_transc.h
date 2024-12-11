@@ -34,7 +34,7 @@ OF SUCH DAMAGE.
 
 #ifndef __USBD_TRANSC_H
 #define __USBD_TRANSC_H
-
+#ifdef USE_DEVICE_MODE
 #include "usbd_core.h"
 
 /* function declarations */
